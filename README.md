@@ -31,7 +31,8 @@ The chatbot searches Reddit for the specified topic, scrapes the relevant posts,
 The raw scraped content is saved on the local machine automatically.
 
 ### Download Summary:
-At the end of the session, users can download the summarized data as a JSON file.
+At the end of the session, users can download the summarized data as a JSON file.[Download the structured summary JSON file](./structured_summary_20240610202812.json)
+
 <div style="text-align: center;">
   <img src="autogen_summary.png" alt="Autogen Summary" width="800" height="400">
 </div>

@@ -1,0 +1,62 @@
+[
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/17f7r5r/any_examples_of_non_trivial_applications/",
+        "created_at": "2023-10-24T08:14:49.000Z",
+        "data_type": "post",
+        "body": "i see the potential of this, but so far what ive seen is akin to hello world type applications\n\nwondering if there are any examples of a complex software application being coded with autogen?"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/17f7r5r/any_examples_of_non_trivial_applications/",
+        "created_at": "2023-10-24T10:05:15.000Z",
+        "data_type": "comment",
+        "body": "I think the limit of this is on the token limit of models used."
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/17f7r5r/any_examples_of_non_trivial_applications/",
+        "created_at": "2023-10-24T14:37:05.000Z",
+        "data_type": "comment",
+        "body": "I've actually had better luck with gpt-pilot for whatever reason.  Even ChatDev provided me better results.  I think I'm likely not using autogen correctly though.  I've set up different agents but I hit the \"two many API calls too quickly\" issue.\n\nI was just building a 3D smiley face that follows the cursor and they all had trouble with gpt-pilot coming closest."
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/17f7r5r/any_examples_of_non_trivial_applications/",
+        "created_at": "2023-10-24T14:59:50.000Z",
+        "data_type": "comment",
+        "body": "gpt-Pilot is far superior for this kind of work. If you are a developer who can still troubleshoot minor issues, and have the ability to read and understand your codebase to understand how it actually works, (this can become a problem later on in the project life cycle, due to context size). I really do buy their claim of 95% automation for larger projects. Maybe 90%.\n\nI dont think we are at the no-code point of large scale projects being deployed using this software, I do think you need someone who has competency when it comes to computer science, but we are absolutely at a \"low code\" point. I wouldnt be surprised if we get to no-code with current gen LLM's, its just a matter of putting various puzzle pieces together, and creating something that can deal with dependancy issues autonomously. With the rumors of Stubbs and Gemini, it seems like next gen will almost certainly be there."
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/17f7r5r/any_examples_of_non_trivial_applications/",
+        "created_at": "2023-10-24T18:16:46.000Z",
+        "data_type": "comment",
+        "body": "On November 2, there is a [lablab.ai](https://lablab.ai) hackathon for Autogen."
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/17f7r5r/any_examples_of_non_trivial_applications/",
+        "created_at": "2023-10-24T21:01:49.000Z",
+        "data_type": "comment",
+        "body": "I see the potential too. I've played around with a few tools. Autogen is the most frustrating as a beginner/hobbyist dev but has the most power imo. It gives you full control over your agents. If you want it to use docker, terminal and install packages, have agents send out emails and search the web through open interpreter, use multiple LLMs for different agents, it's all there.   \n\n\nThe only downside I see right now is the memory size and having it look at full directories but you could probably connect it to a service like [sweep.dev](https://sweep.dev) and solve some of that. I haven't looked at a lot of examples of projects built with it but it's still early on. I think you could build pretty much anything with it if you plan it out correctly and don't try to achieve it in one prompt. With any of these tools even chatgpt, I start with making an mvp and branch out from there just like projects before. You can even make project management agents that plan it out in modular steps for your team. The other downside is the documentation kinda sucks. Nothing is spelled out and you're left to reverse engineer things in the notebook. They could probably have a team of agents rewrite the docs in a day. Or even real devs, they're microsoft"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/17f7r5r/any_examples_of_non_trivial_applications/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/17f7r5r/any_examples_of_non_trivial_applications/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/17f7r5r/any_examples_of_non_trivial_applications/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/17f7r5r/any_examples_of_non_trivial_applications/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    }
+]

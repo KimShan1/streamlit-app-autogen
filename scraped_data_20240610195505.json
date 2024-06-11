@@ -1,0 +1,62 @@
+[
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/17cxw9s/autogen_llamaindex/",
+        "created_at": "2023-10-21T08:28:52.000Z",
+        "data_type": "post",
+        "body": "Trying to combine the best of both worlds and use techniques from llamaindex to aid RAG autogen agents. Do some of you have experience in combining these two frameworks?"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/17cxw9s/autogen_llamaindex/",
+        "created_at": "2023-12-15T08:29:36.000Z",
+        "data_type": "comment",
+        "body": "Interesting in this topic."
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/17cxw9s/autogen_llamaindex/",
+        "created_at": "2024-03-25T16:45:20.000Z",
+        "data_type": "comment",
+        "body": "I just updated the notebook for llama index 0.10+"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/17cxw9s/autogen_llamaindex/",
+        "created_at": "2024-03-25T16:44:35.000Z",
+        "data_type": "comment",
+        "body": "The updated Autogen + LlamaIndex Auto dev is here, it runs on llama\\_index 0.10.23\n\n&amp;#x200B;\n\n[https://github.com/lion-agi/lionagi/blob/main/notebooks/RAG%20use%20cases/AutoDev\\_w\\_Autogen.ipynb](https://github.com/lion-agi/lionagi/blob/main/notebooks/RAG%20use%20cases/AutoDev_w_Autogen.ipynb)"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/17cxw9s/autogen_llamaindex/",
+        "created_at": "2024-01-03T09:59:16.000Z",
+        "data_type": "comment",
+        "body": "I'm trying."
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/17cxw9s/autogen_llamaindex/",
+        "created_at": "2024-01-05T08:23:04.000Z",
+        "data_type": "comment",
+        "body": "I am implementing this too and used this tutorial [https://medium.com/@haiyangli\\_38602/rag-assisted-auto-developer-with-lionagi-llamaindex-autogen-and-oai-code-interpreter-eea760dcbaa3](https://medium.com/@haiyangli_38602/rag-assisted-auto-developer-with-lionagi-llamaindex-autogen-and-oai-code-interpreter-eea760dcbaa3)\n\nHope this helps"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/17cxw9s/autogen_llamaindex/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/17cxw9s/autogen_llamaindex/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/17cxw9s/autogen_llamaindex/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/17cxw9s/autogen_llamaindex/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    }
+]

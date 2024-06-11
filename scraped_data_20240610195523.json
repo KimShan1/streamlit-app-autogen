@@ -1,0 +1,62 @@
+[
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/186cft9/autogen_executing_autogen/",
+        "created_at": "2023-11-29T01:00:49.000Z",
+        "data_type": "post",
+        "body": "I've been diving into the autogen code with the intention of exploring how it can be used or extended towards more general capabilities (i.e. in the direction of AGI). My initial goal has been to write an autogen script that can spin off a separate functioning instance of autogen without prior knowledge of autogen. Finally had some success today, here's the output:\n\n[autogen executing autogen](https://docs.google.com/document/d/1CWzR-YC59HaZVBWIxxNpKsIKn75NnVljrSio4Nzy8iw/edit?usp=sharing)\n\n&amp;#x200B;\n\nThe code is still pretty messy but I hope to be able to share it at some point. The main features I added include:\n\n* An \"Agent Council\" that discusses which agent should act next.\n* Updated group chat functionality such that all agents have awareness of each other.\n* A \"consult\\_archive\\_agent\" function who's purpose is to:\n   * Check if domain knowledge (i.e. a llama\\_index index) exists for a certain request\n   * Extract relevant domain knowledge if needed (currently restricted to google search of github repos)\n   * Use domain knowledge to respond via RAG\n* Generally injecting reasoning (i.e. LLMs) into various steps.\n* Quite a few agents with (relatively) complex system messages.\n\n&amp;#x200B;\n\nWould love to hear any thoughts/feedback."
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/186cft9/autogen_executing_autogen/",
+        "created_at": "2023-11-29T02:29:29.000Z",
+        "data_type": "comment",
+        "body": "Very interesting work.  \n\nHow did a valid API key and base URL get passed into the session?\n\nWhat made you think of these specific 9 agent types?  Are they defined in the system message?"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/186cft9/autogen_executing_autogen/",
+        "created_at": "2023-11-29T06:28:29.000Z",
+        "data_type": "comment",
+        "body": "Thanks! I admit I cheated a bit with the API key. On an earlier run I had not provided any keys and the agents eventually requested it via the UserProxy, at which point I added the \"OAI\\_CONFIG\\_LIST.json\" to the working directory. I left it there for this run.\n\nAs for the agent types, I tried quite a few. I don't think this particular combination is critical but some (like the AgentAwarenessExpert, TaskComprehensionAgent, and TaskHistoryReviewAgent) I created based on the shortcomings I noticed in various runs. Each has their own specific system message, but they all get the team list \"injected\" into their system message before the chat starts so that they are aware of each other.\n\nI forgot to mention an important note. The \"Agent Council\" is a single bot (i.e. the Chat Manager) with a system prompt that tells it to \"manifest personas\" of various agents, including any that it deems appropriate, to participate in a town-hall like discussion. The \"WiseCouncilMember\" is one of the personas it likes to add in (it's also an example persona in the system prompt).\n\nIf it helps, here is the list of agents I've been playing with:\n\n&amp;#x200B;\n\n`AGENT_TEAM = [`  \n `user_proxy,`  \n `code_reviewer,`  \n `agent_awareness_expert,`  \n `python_expert,`  \n `function_calling_agent,`  \n `# agi_gestalt_agent,`  \n `creative_solution_agent,`  \n `first_principles_thinker_agent,`  \n `# out_of_the_box_thinker_agent,`  \n `# strategic_planning_agent,`  \n `project_manager_agent,`  \n `# efficiency_optimizer_agent,`  \n `# emotional_intelligence_expert_agent,`  \n `task_history_review_agent,`  \n `task_comprehension_agent`  \n`]`"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/186cft9/autogen_executing_autogen/",
+        "created_at": "2023-12-14T05:20:55.000Z",
+        "data_type": "comment",
+        "body": "Hey! Just letting you know the project is publicly available now. You can find the link in this post:  \n\n\n[https://www.reddit.com/r/AutoGenAI/comments/18i0767/autogen\\_agi/](https://www.reddit.com/r/AutoGenAI/comments/18i0767/autogen_agi/)"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/186cft9/autogen_executing_autogen/",
+        "created_at": "2023-11-29T11:02:44.000Z",
+        "data_type": "comment",
+        "body": "Very interesting development using AutoGen ! I am curious to see your code and try it out.\n\nAs I see it now the \u201cAgent Counsel\u201d is a improvement of the \u201cChat Manager\u201d of standard AutoGen, that gets to decide which other agents will participate in the discussions among the available agents. I am not entirely sure if the user proposes which agents are available and if the user has to configure these agents manually. Or is that also done automatically ?\n\nMy main question: what can \u201cautogen executing autogen\u201d do, that AutoGen on its own cannot do ?"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/186cft9/autogen_executing_autogen/",
+        "created_at": "2023-11-29T16:42:52.000Z",
+        "data_type": "comment",
+        "body": "Thank you! I do hope to share the code but it's a bit of an embarrassing mess right now. I'm hoping I can get the agents to help me clean it up, haha.  \n\n\nThe Agent Council is given a list of the actual autogen agents to borrow \"personas\" from, but is also free to include any extra personas it deems appropriate for the discussion. For example at some point I asked if the council could tell me a joke and they manifested a \"HumoristExpert\" to help out, haha.  \n\n\nAs for your main question, nothing that I know of, haha. This is more of a personal milestone for me since I want the agents to be able to leverage libraries they are not trained on, and this seemed like a cool example of that. Although it would be even cooler to see if we could prompt them to keep the cycle going recursively...  \n\n\nNote that dynamically spawning agents can be much simpler than this if you encapsulate the functionality into a function call (something like \"spawn\\_agent\\_team\"). But again I just wanted to see if they could do it \"from scratch\"."
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/186cft9/autogen_executing_autogen/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/186cft9/autogen_executing_autogen/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/186cft9/autogen_executing_autogen/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/186cft9/autogen_executing_autogen/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    }
+]

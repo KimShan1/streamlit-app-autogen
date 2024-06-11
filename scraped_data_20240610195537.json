@@ -1,0 +1,62 @@
+[
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/173s1qs/review_autogen_framework_from_microsoft/",
+        "created_at": "2023-10-09T13:39:03.000Z",
+        "data_type": "post",
+        "body": "URL: /r/llm_updated/comments/173a26w/review_autogen_framework_from_microsoft/\nThumbnail: https://a.thumbs.redditmedia.com/XRuoCctaAVkbvjnh9hlnIdCCc1gwm5Jyqu9iZ_ESNZ8.jpg\n"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/173s1qs/review_autogen_framework_from_microsoft/",
+        "created_at": "2023-10-16T05:22:09.000Z",
+        "data_type": "comment",
+        "body": "I have a problem with AutoGen. I added 4 agents in a group chat, did two testruns. (Both of them did fail btw.) But the cost is very high, I got up to $13 for two runs!! Any tips on getting the cost down?"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/173s1qs/review_autogen_framework_from_microsoft/",
+        "created_at": "2023-10-17T15:40:59.000Z",
+        "data_type": "comment",
+        "body": "You should be explicit in limiting how often each one runs and introduce human intervention early on. It's a tool and a machine that will keep running if you let it."
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/173s1qs/review_autogen_framework_from_microsoft/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/173s1qs/review_autogen_framework_from_microsoft/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/173s1qs/review_autogen_framework_from_microsoft/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/173s1qs/review_autogen_framework_from_microsoft/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/173s1qs/review_autogen_framework_from_microsoft/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/173s1qs/review_autogen_framework_from_microsoft/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/173s1qs/review_autogen_framework_from_microsoft/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/199lgy3/more_examples_of_autogen_skillz/",
+        "created_at": "2024-01-18T08:31:19.000Z",
+        "data_type": "post",
+        "body": "Hi allAre there more examples of Autogen skills / agents / floating around out there?\n\nAutogen Studio seems to be set up in a way that would allow us to plug/play skills and agents. With that in mind, I am surprised it only comes with only two examples built out, arxiv and image making (and image making is via DallE, right?).\n\nIs there anywhere we can share skills and agents, or browse other examples?\n\nThanks\n\n&amp;#x200B;\n\n\\## Update ##\n\nJust wanted to add, when I say skills I mean, the pieces of code and function calls that allow agents to perform tasks. Making an agent, giving it a name and a role/backstory is pretty easy stuff. Giving them abilities is a lot harder and this is where shareability would really shine."
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/199lgy3/more_examples_of_autogen_skillz/",
+        "created_at": "2024-01-19T02:05:40.000Z",
+        "data_type": "comment",
+        "body": "I've thought about the same and just created a repo to share some examples.  \n[https://github.com/csabakecskemeti/autogen\\_skillz](https://github.com/csabakecskemeti/autogen_skillz)  \nFeel free to use the example from here and also add your examples to share with others."
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/199lgy3/more_examples_of_autogen_skillz/",
+        "created_at": "2024-01-19T23:05:10.000Z",
+        "data_type": "comment",
+        "body": "Awesome, thank you, especially for adding the z"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/199lgy3/more_examples_of_autogen_skillz/",
+        "created_at": "2024-01-20T07:00:08.000Z",
+        "data_type": "comment",
+        "body": "Amazing, thankyou!"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/199lgy3/more_examples_of_autogen_skillz/",
+        "created_at": "2024-01-18T13:05:48.000Z",
+        "data_type": "comment",
+        "body": "I would like to see this, too. I was using autogen earlier in its development but found it pretty tough for someone with my lack of dev skills. Would love more examples"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/199lgy3/more_examples_of_autogen_skillz/",
+        "created_at": "2024-01-18T15:34:55.000Z",
+        "data_type": "comment",
+        "body": "Yes please, that would be amazing!"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/199lgy3/more_examples_of_autogen_skillz/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/199lgy3/more_examples_of_autogen_skillz/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/199lgy3/more_examples_of_autogen_skillz/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/199lgy3/more_examples_of_autogen_skillz/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    }
+]

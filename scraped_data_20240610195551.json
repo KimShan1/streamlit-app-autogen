@@ -1,0 +1,62 @@
+[
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/172cjzt/what_is_everyone_using_autogen_for_what_would_you/",
+        "created_at": "2023-10-07T18:00:27.000Z",
+        "data_type": "post",
+        "body": ""
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/172cjzt/what_is_everyone_using_autogen_for_what_would_you/",
+        "created_at": "2023-10-07T18:41:42.000Z",
+        "data_type": "comment",
+        "body": "I'm hoping to create a system to generate stories based on a series of high level user parameters, agent-based research, and agents acting as individual characters. I'm hoping to be able to control high level concepts of story generation, with the agents doing the heavy lifting, and still be cohesive and worth reading."
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/172cjzt/what_is_everyone_using_autogen_for_what_would_you/",
+        "created_at": "2023-10-07T19:19:58.000Z",
+        "data_type": "comment",
+        "body": "So a story that's basically a retelling of multiple agents interacting with each other?  That's a pretty cool experiment.  Each on acting as their own self, so other than perhaps an overall guide, no one knows how the story will play out...  I don't know if you watch all the videos you've been posting here, but I actually just finished watching the recent one by echohive (AutoGen Deep Dive with Multi Agent interactions) - his demo involves writing a book - not as complex as what I describe but it would be a good starting base to work with.  Basically he wrote an 'author' which receives the premise of a book and is tasked with writing one chapter at a time, then another agent writes that to a file, and I think he had an editor in the mix that would suggest edits before the final version was written by the 'writer' agent."
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/172cjzt/what_is_everyone_using_autogen_for_what_would_you/",
+        "created_at": "2023-10-07T19:26:05.000Z",
+        "data_type": "comment",
+        "body": "I'm looking forward to doing some experimentation with how to set up the hierarchy. I feel like there's a lot of room for creativity in how you structure it. I do watch the videos, but I only started that one, so that's good to know! I got sucked down a few rabbit holes with Pinokio, Arc browser, and gaussian splatting."
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/172cjzt/what_is_everyone_using_autogen_for_what_would_you/",
+        "created_at": "2023-10-09T19:36:29.000Z",
+        "data_type": "comment",
+        "body": "Similar goal, looking to create stories and comics with high level controls, while agents would write, create images prompts, do research and propose automatically. Maybe images generation is not yet possible and would probably need heavy editing with stable diffusion and hand painting. But writing interesting first draft of a book should be possible with heavy prompting technics. I am not sure about AI editing capabilities though.\n\nHaving ai agent acting as autonomous story character is a really great idea btw."
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/172cjzt/what_is_everyone_using_autogen_for_what_would_you/",
+        "created_at": "2023-10-07T19:29:22.000Z",
+        "data_type": "comment",
+        "body": "I haven't gotten it to work yet - I kept getting bash errors even though I'm on windows.  The more I've read up on it, it seems you should be using docker, and a video I recently watched showed some of the default prompting which instructs agents to execute shell commands as a bash script, so that's probably why.\n\nWhat I am trying to do - with any AI toolkit that I can actually get to work - is to help with a task at my business. We have a very obscure programming language that most coding LLMs probably don't know about.  We receive word documents with a series of instructions which need to be turned into code.  It's a multi-step document, lots of \"if this then that\".  The output of the coding language is two different files - one for definitions and one for logic / execution.  I'd like to be able to feed it an input document, give it a reference to the software documentation, maybe even previously created examples, and have it output the two file formats.\n\nI've also been looking into fine-tuning a model that's known to be good at coding, but outside of stable diffusion I feel like I'm in a little over my head.  (Hell, I'm still no pro with SD, either).  If AutoGen is (or can be) as good as it seems, I'm guessing we'll be able to simply use AutoGen to help us fine tune our own model.\n\nWho knows.. I know enough to know I don't know jack about this stuff, but I'm trying to learn and it's been pretty fun so far - with a little frustration built in.\n\nI did just try out ChatDev earlier this morning and it's the first package I've tried that worked nearly flawlessly from installation to generating actual working code (html and JS)."
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/172cjzt/what_is_everyone_using_autogen_for_what_would_you/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/172cjzt/what_is_everyone_using_autogen_for_what_would_you/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/172cjzt/what_is_everyone_using_autogen_for_what_would_you/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/172cjzt/what_is_everyone_using_autogen_for_what_would_you/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    }
+]

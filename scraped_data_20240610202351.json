@@ -1,0 +1,62 @@
+[
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/1ap5y2y/getting_started_with_autogen_a_framework_for/",
+        "created_at": "2024-02-12T17:46:34.000Z",
+        "data_type": "post",
+        "body": "&amp;#x200B;\n\nhttps://preview.redd.it/l0abm2v3z6ic1.png?width=1456&amp;format=png&amp;auto=webp&amp;s=88430ae80468e6402cc76672e2bec322bb162536\n\nWant to build multi-agent #genai apps but not sure where to begin? I wrote a friendly (but detailed) introduction to building with [AutoGen](https://github.com/microsoft/autogen).\n\nFull Post here: [https://newsletter.victordibia.com/p/getting-started-with-autogen-a-framework](https://newsletter.victordibia.com/p/getting-started-with-autogen-a-framework)  \n\n\n**Covers:**  \n\\- What is AutoGen ? - Agent Definition, Conversational Programming, Task Termination, Workflow Patterns  \n\\- Basic example (stock prices visualization). Code available as a [Colab notebook](https://colab.research.google.com/github/designingwithml/blogposts/blob/main/notebooks/autogen_introduction.ipynb)  \n\\- Deterministic vs Autonomous Workflows (pros and cons)  \n\\- FAQs\n\nThis tutorial is meant for *beginners, aimed at helping build familiarity with abstractions in AutoGen*. Future posts will cover - complex workflows, integrating skills and AutoGen Studio (a UI interface for AutGen that I have been working on for creating AI agents).\n\n  \n**Other Helpful References:**  \n\\- AutoGen on GitHub [https://github.com/microsoft/autogen](https://github.com/microsoft/autogen)  \n\\- Multi-Agent LLM Applications | A Review of Current Research, Tools, and Challenges  \n[https://newsletter.victordibia.com/p/multi-agent-llm-applications-a-review](https://newsletter.victordibia.com/p/multi-agent-llm-applications-a-review)"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/1ap5y2y/getting_started_with_autogen_a_framework_for/",
+        "created_at": "2024-02-26T01:20:17.000Z",
+        "data_type": "comment",
+        "body": "I got this running today.  I used the stock price prompt.  I graduated to prompting the Agents to compile a group of python files into a single workflow.  It worked nicely, but I'm not sure I'm leveraging the multi-agent architecture.  the scripts cannot be run in the shell because they prompt the user for input in the terminal.  I can't tell if this platform is for experienced chatbot coders or if novice coders with an OpenAI API key can leverage this architecture.  There's not a lot of activity in this subreddit, which may or may not be an indication that people are actively playing with this platform."
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/1ap5y2y/getting_started_with_autogen_a_framework_for/",
+        "created_at": "2024-02-26T02:27:18.000Z",
+        "data_type": "comment",
+        "body": "**Configuring AutoGen**\n\nAutoGen has many parameters and configuring them well is important to getting the right behaviour. For example, you can set the agents to NEVER ask for input, to get them to independently attempt to solve tasks (see the notebook in the post above as an example).\n\n**Getting Help**\n\nSo there is a discord server with over 14k members. Quite active actually.[https://discord.gg/pAbnFJrkgZ](https://discord.gg/pAbnFJrkgZ) .. consider joining and asking question ...There are also many notebook examples that could be helpful in getting started.[https://microsoft.github.io/autogen/docs/Examples](https://microsoft.github.io/autogen/docs/Examples) . The notebook examples could be overwhelming at first, so exploring them and asking questions could be a good approach."
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/1ap5y2y/getting_started_with_autogen_a_framework_for/",
+        "created_at": "2024-02-26T02:41:44.000Z",
+        "data_type": "comment",
+        "body": "Thank you for your response.  I will explore both...  :)"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/1ap5y2y/getting_started_with_autogen_a_framework_for/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/1ap5y2y/getting_started_with_autogen_a_framework_for/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/1ap5y2y/getting_started_with_autogen_a_framework_for/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/1ap5y2y/getting_started_with_autogen_a_framework_for/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/1ap5y2y/getting_started_with_autogen_a_framework_for/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/1ap5y2y/getting_started_with_autogen_a_framework_for/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    }
+]

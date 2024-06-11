@@ -1,0 +1,62 @@
+[
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/17bz0ff/im_confused_on_what_exactly_you_can_do_with/",
+        "created_at": "2023-10-20T01:10:45.000Z",
+        "data_type": "post",
+        "body": "What sort of things can you create using autogen? Is it only used for creating AI programs specifically?"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/17bz0ff/im_confused_on_what_exactly_you_can_do_with/",
+        "created_at": "2023-10-20T09:13:36.000Z",
+        "data_type": "comment",
+        "body": "Autogen is a way to let\u2019s AI agent take different roles and communicate together to help them resolve complexe task. You can use it for any kind of problem that AI can do. From coding, to writing books or anything that an AI could do."
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/17bz0ff/im_confused_on_what_exactly_you_can_do_with/",
+        "created_at": "2023-10-20T14:00:14.000Z",
+        "data_type": "comment",
+        "body": "Autogen \u00ecs just a way to set up multiple instances of an LLM talking to itself which has shown that it solves problems better than a single instance of your LLM.\n\nIt can do what your LLM can do just a bit better.\n\nYou could build the same thing by setting up multiple instances of ChatGPT with different custom instructions and passing the responses between them manually."
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/17bz0ff/im_confused_on_what_exactly_you_can_do_with/",
+        "created_at": "2023-10-30T09:31:22.000Z",
+        "data_type": "comment",
+        "body": "I\u2018m confused about promptflow and Autogen. Does someone can tell the difference between them?"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/17bz0ff/im_confused_on_what_exactly_you_can_do_with/",
+        "created_at": "2023-11-22T09:18:28.000Z",
+        "data_type": "comment",
+        "body": "Prompt flow is a solid structure that you follow to resolve your problem. You can have multiple plans and you can also try to create or edit them dynamically but is always a sequence that your program will follow no matter what.\n\nWith autogen you have a series of agents that decide by themself if they need other information from one another, if they need to use one on their tool (function call), ask the user for more information or terminate the activity because the goal is reached.   \nIt give you framework where you have less control of what is going to happen. \n\nFor this reason the result could be better because the agents finds the best way to solve the problem. Another fact is that could happen that different run, with same input, take completely different path to the result."
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/17bz0ff/im_confused_on_what_exactly_you_can_do_with/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/17bz0ff/im_confused_on_what_exactly_you_can_do_with/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/17bz0ff/im_confused_on_what_exactly_you_can_do_with/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/17bz0ff/im_confused_on_what_exactly_you_can_do_with/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    },
+    {
+        "url": "https://www.reddit.com/r/AutoGenAI/comments/17bz0ff/im_confused_on_what_exactly_you_can_do_with/",
+        "created_at": "",
+        "data_type": "fake",
+        "body": "Filler result to achive minimum 10 items for Pay per Result run"
+    }
+]

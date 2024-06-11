@@ -28,10 +28,10 @@ Users can input and save their API keys for Azure OpenAI, Apify, and Bing throug
 The chatbot searches Reddit for the specified topic, scrapes the relevant posts, and summarizes each one according to the provided structure.
 
 ### Data Storage:
-The raw scraped content is saved on the local machine automatically.
+The raw scraped content is saved on the local machine automatically. [Download an example of the scraped content](./scraped_data_20240610195648.json)
 
 ### Download Summary:
-At the end of the session, users can download the summarized data as a JSON file.[Download the structured summary JSON file](./structured_summary_20240610202812.json)
+At the end of the session, users can download the summarized data as a JSON file. [Download the structured summary JSON file](./structured_summary_20240610202812.json)
 
 <div style="text-align: center;">
   <img src="autogen_summary.png" alt="Autogen Summary" width="800" height="400">

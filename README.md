@@ -33,7 +33,7 @@ The raw scraped content is saved on the local machine automatically.
 ### Download Summary:
 At the end of the session, users can download the summarized data as a JSON file.
 <div style="text-align: center;">
-  <img src="autogen_summary.png" alt="Autogen Summary" width="500" height="400">
+  <img src="autogen_summary.png" alt="Autogen Summary" width="600" height="400">
 </div>
 
 ## Instructions for Usage
